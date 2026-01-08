@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Disallow admin area
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /uploads/
+
+# Allow images
+Allow: /assets/images/
+
+# Sitemap
+Sitemap: http://localhost/trangsuc/sitemap.xml
